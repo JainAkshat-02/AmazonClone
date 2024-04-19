@@ -1,0 +1,89 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: rgb(35,47,63);
+    color:white;
+    align-items: center;
+    display: flex;
+   /* justify-content: space-evenly;*/ 
+    
+}
+.web-logo{          /** amazon logo */
+     background-image: url(/Pictures/amazon\ logo.png);  
+     height: 50px;
+     width: 113px;
+     background-size: cover;
+     margin:0.9px
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white
+}
+.nav-address{
+    width:89px
+}
+.deliver{ /*box2 Deliver to */
+color: gray;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.nav-location{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left:3px;
+    
+}
+.search-box{
+    margin-left: 4px;
+    border-radius: 2px;
+    background-color: pink;
+    width: 620px;
+    height:40px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ .search-bar{
+    
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    
+}
+.select-bar{
+    height: 40px;
+    background-color: #f3f3f3;
+    width:50px;
+text-align: center;
+    border-top-left-radius: 4px;
+    border-top-left-radius: 4px; 
+    border:none;
+    
+    
+}  
+.search-logo{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 173, 47);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size:1.2rem;
+    color: rgb(35,47,63);  
+}
+
+    
+.ind-logo{
+    margin-left: 8px;
+    background-image: url(/Pictures/location-logo.png);
+
+}
